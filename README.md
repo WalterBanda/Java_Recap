@@ -1,15 +1,14 @@
 # 💻 Java Language Recaps and Advancement 🗔 🖥
 
-![License](https://img.shields.io/github/license/WalterBanda/arch-systemd-wsl-script) 
+<!-- ![License](https://img.shields.io/github/license/WalterBanda/arch-systemd-wsl-script) 
 ![Issues](https://img.shields.io/github/issues/WalterBanda/arch-systemd-wsl-script)
-![Generic badge](https://img.shields.io/badge/made-with💖-blue.svg)
+![Generic badge](https://img.shields.io/badge/made-with💖-blue.svg) -->
 
 ## 🚀 Project Profile
 
 This is a Project that I use for recaps, reference and refresh to the Java syntax.
 
-This repo also contains tutorial that ive used to teach other people java and most parts covered are the essentials for application development 
-
+This repo also contains tutorial that are essential for application development.
 ## 🚧 Project Structure 🏗
 
 The Project has following structure;
