@@ -6,7 +6,9 @@
 
 ## 🚀 Project Profile
 
-This is a Project that I use for recaps, reference and refresh to the Java syntax
+This is a Project that I use for recaps, reference and refresh to the Java syntax.
+
+This repo also contains tutorial that ive used to teach other people java and most parts covered are the essentials for application development 
 
 ## 🚧 Project Structure 🏗
 
