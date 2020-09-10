@@ -1,8 +1,9 @@
 # 💻 Java Language Recaps and Advancement 🗔 🖥
 
-<!-- ![License](https://img.shields.io/github/license/WalterBanda/arch-systemd-wsl-script) 
-![Issues](https://img.shields.io/github/issues/WalterBanda/arch-systemd-wsl-script)
-![Generic badge](https://img.shields.io/badge/made-with💖-blue.svg) -->
+![License](https://img.shields.io/github/license/WalterBanda/Java_Recap) 
+![Issues](https://img.shields.io/github/issues/WalterBanda/Java_Recap)
+![Generic badge](https://img.shields.io/badge/made-with💖-blue.svg)
+![Stars](https://img.shields.io/github/issues/WalterBanda/Java_Recap)
 
 ## 🚀 Project Profile
 
