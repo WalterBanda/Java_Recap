@@ -25,6 +25,7 @@ public class StringR {
     }
     public static void madlibs() {
         hello();
-        fillinspaces();
+        System.out.println("StringR class");
+//        fillinspaces();
     }
 }

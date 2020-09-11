@@ -1,26 +1,17 @@
+import recap.one.Escape_CharacterR;
 import recap.one.StringR;
+import recap.init;
 
 public class App {
     public static void main(String[] args) {
-        space();
-        System.out.println("Main Entry Point");
-        space();
-//        welcome();
-//        space();
+        submain();
+    }
+    static void submain(){
+        init.initr();
         System.out.println("Other classes");
-        space();
+        init.space();
         StringR.madlibs();
-    }
-    static void welcome(){
-        System.out.print("#####################################################\n" +
-                "#################--    Hi 👋      --#################\n" +
-                "####-- My Java Recap ☕ and Small Applications --####\n" +
-                "########--  And Some other small projects  --########\n" +
-                "##############---- Made with 💗--------##############\n" +
-                "#####################################################"
-        );
-    }
-    static void space(){
-        System.out.println("\n");
+        init.space();
+        Escape_CharacterR.init();
     }
 }
