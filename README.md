@@ -20,9 +20,9 @@ The Project has following structure;
         ⎆ StringsR ⊝
         ⎆ Escape_CharacterR ⊝
         ⎆ Operators ⊝
-        ⎆ Exponents
-        ⎆ Arrays
-        ⎆ Java Type Cating
+        ⎆ Exponents ⊝
+        ⎆ Arrays ⊝
+        ⎆ Java Type Cating ⊝
     ❈ recap.two
         ⎆ Nested loops
         ⎆ Break usability
