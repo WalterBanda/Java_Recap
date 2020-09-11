@@ -1,4 +1,5 @@
 import recap.one.Escape_CharacterR;
+import recap.one.Operators;
 import recap.one.StringR;
 import recap.init;
 
@@ -13,5 +14,6 @@ public class App {
         StringR.madlibs();
         init.space();
         Escape_CharacterR.init();
+        Operators.init();
     }
 }

@@ -19,7 +19,7 @@ The Project has following structure;
     ❈ recap.one
         ⎆ StringsR ⊝
         ⎆ Escape_CharacterR ⊝
-        ⎆ Operators
+        ⎆ Operators ⊝
         ⎆ Exponents
         ⎆ Arrays
         ⎆ Java Type Cating
