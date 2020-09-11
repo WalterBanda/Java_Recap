@@ -17,7 +17,7 @@ The Project has following structure;
 ### Packages
 
     ❈ recap.one
-        ⎆ StringsR
+        ⎆ StringsR ⊝
         ⎆ Escape_CharacterR
         ⎆ Operators
         ⎆ Exponents

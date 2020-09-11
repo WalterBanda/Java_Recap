@@ -5,8 +5,8 @@ public class App {
         space();
         System.out.println("Main Entry Point");
         space();
-        welcome();
-        space();
+//        welcome();
+//        space();
         System.out.println("Other classes");
         space();
         StringR.madlibs();
