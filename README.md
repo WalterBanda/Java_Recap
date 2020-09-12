@@ -47,6 +47,8 @@ The Project has following structure;
 
     ❈ recap.advanced
         ⎆ Subclasses and Superclass ⊝
+        ⎆ Linked List || Linky ⊝ 
+        ⎆ Polymorphism ⊝
     
 
 ## 📁 Folder Structure 

@@ -10,13 +10,13 @@ public class Exponents {
 
     private static void run() {
         Scanner enter = new Scanner(System.in);
-        System.out.print("Enter The Base number:     ");
-        int base = enter.nextInt();
-        System.out.print("Enter The Raised Number:   ");
-        int raised = enter.nextInt();
+        int base=5,raised=4;
+        System.out.println("Enter The Base number:     " + base);
+//       base  = enter.nextInt();
+        System.out.println("Enter The Raised Number:   " + raised);
+//       raised  = enter.nextInt();
         System.out.println("The exponential is:        " + (int)(expoFunction(base,raised)));
     }
-
 
     private static double expoFunction(int a , int b) {
         return Math.pow(a,b);
