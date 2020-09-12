@@ -1,4 +1,11 @@
 package recap;
+
+import recap.advanced.subclass_superclass.Subclass_Superclass;
+import recap.one.Escape_CharacterR;
+import recap.one.Exponents;
+import recap.one.Operators;
+import recap.one.StringR;
+
 public class init {
     public static void initr(){
         space();
@@ -18,5 +25,19 @@ public class init {
     }
     public static void space(){
         System.out.println("\n");
+    }
+    public static void main(){
+        initr();
+        System.out.println("Other classes");
+        space();
+        StringR.madlibs();
+        space();
+        Escape_CharacterR.init();
+        space();
+        Operators.init();
+        space();
+        Exponents._init();
+        space();
+        Subclass_Superclass._init();
     }
 }
