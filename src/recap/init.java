@@ -1,6 +1,7 @@
 package recap;
 
 import recap.advanced.Linky;
+import recap.advanced.Polymorphism;
 import recap.advanced.subclass_superclass.Subclass_Superclass;
 import recap.one.Escape_CharacterR;
 import recap.one.Exponents;
@@ -42,5 +43,6 @@ public class init {
 //        Subclass_Superclass._init();
         space();
         Linky.init();
+        Polymorphism.init();
     }
 }
