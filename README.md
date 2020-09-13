@@ -49,6 +49,7 @@ The Project has following structure;
         ⎆ Subclasses and Superclass ⊝
         ⎆ Linked List || Linky ⊝ 
         ⎆ Polymorphism ⊝
+        ⎆ Lambdas ⊝
     
 
 ## 📁 Folder Structure 

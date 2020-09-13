@@ -1,5 +1,6 @@
 package recap;
 
+import recap.advanced.LambdaFunctions;
 import recap.advanced.Linky;
 import recap.advanced.Polymorphism;
 import recap.advanced.subclass_superclass.Subclass_Superclass;
@@ -29,20 +30,21 @@ public class init {
         System.out.println("\n");
     }
     public static void main(){
-//        initr();
-//        System.out.println("Other classes");
-//        space();
-//        StringR.madlibs();
-//        space();
-//        Escape_CharacterR.init();
-//        space();
-//        Operators.init();
-//        space();
-//        Exponents._init();
-//        space();
-//        Subclass_Superclass._init();
+        initr();
+        System.out.println("Other classes");
+        space();
+        StringR.madlibs();
+        space();
+        Escape_CharacterR.init();
+        space();
+        Operators.init();
+        space();
+        Exponents._init();
+        space();
+        Subclass_Superclass._init();
         space();
         Linky.init();
         Polymorphism.init();
+        LambdaFunctions.init();
     }
 }

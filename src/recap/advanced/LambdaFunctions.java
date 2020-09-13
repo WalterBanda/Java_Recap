@@ -12,13 +12,28 @@ public class LambdaFunctions {
                 "############################################################################");
     }
     static void lambdaim(){
-        Game football = new Game() {
+        Game football = () -> System.out.println("Im playing Football");
+        football.play();
+        // This is the lambda format when enlarged
+        Game cricket = new Game() {
             @Override
             public void play() {
-                System.out.println("Im playing ");
+                System.out.println("Im playing cricket");
             }
         };
+        cricket.play();
+        Series odiSeries = (type) -> System.out.println("Its a "+ type +" game");
+        odiSeries.play("Minecraft");
+        //This is the lambda with parameters when enlarged
+        Series OdiSeries = new Series() {
+            @Override
+            public void play(String type) {
+                System.out.println("Its a "+type+" game");
+            }
+        };
+        OdiSeries.play("hockey");
     }
     interface Game{ void play(); }
+    interface Series{ void play( String type );}
 
 }
