@@ -1,5 +1,8 @@
 package recap.advanced;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class LambdaFunctions {
     public static void init(){ info();lambdaim(); }
     static void info(){
@@ -32,6 +35,20 @@ public class LambdaFunctions {
             }
         };
         OdiSeries.play("hockey");
+        List<String> players = Arrays.asList(
+                "Kholi","Sachin","Ganguli","Dhoni","Dravid","Sehwag",
+                "Dave","Mike","Ram","Fred"
+        );
+        //Old Method
+        for (String player: players) {
+            if (player.equals("Sachin")) System.out.println("Sachin found using old method");
+        }
+        // Alternate foreach using lambda expressions
+        players.forEach(player -> {
+            if (player.equals("Sachin")){System.out.println("Sachin on alternate method");}
+        });
+        //Latest java 8 and above
+        players.stream().filter(player -> player.equals("Sachin")).forEach(player -> System.out.println("Yes Sachin is in the squad"));
     }
     interface Game{ void play(); }
     interface Series{ void play( String type );}
