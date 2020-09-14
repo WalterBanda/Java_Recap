@@ -52,5 +52,5 @@ public class LambdaFunctions {
     }
     interface Game{ void play(); }
     interface Series{ void play( String type );}
-
+    
 }
