@@ -10,6 +10,15 @@ import recap.one.Operators;
 import recap.one.StringR;
 
 public class init {
+    /**
+     * @author Walter Banda
+     * <div>##########################################</div>
+     * <div>#################--Hi👋--#################</div>
+     * <div>###--My Java Recap ☕ and Small Applications--####</div>
+     * <div>########--And Some other small projects--#######</div>
+     * <div>##############----Made with 💗--------##############</div>
+     * <div>#################################################</div>
+     */
     public static void initr(){
         space();
         System.out.println("Main Entry Point");
@@ -18,7 +27,8 @@ public class init {
         space();
     }
     static void welcome(){
-        System.out.print("#####################################################\n" +
+        System.out.print(
+                "#####################################################\n" +
                 "#################--    Hi 👋      --#################\n" +
                 "####-- My Java Recap ☕ and Small Applications --####\n" +
                 "########--  And Some other small projects  --########\n" +
